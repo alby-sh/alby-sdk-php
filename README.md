@@ -6,7 +6,7 @@
 [![CI](https://github.com/alby-sh/alby-php/actions/workflows/ci.yml/badge.svg)](https://github.com/alby-sh/alby-php/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-Official [Alby](https://alby.sh) error-tracking SDK for PHP 8.1+.
+Official [Alby](https://alby.sh) error-tracking SDK for PHP 8.2+.
 
 Captures uncaught exceptions, errors, and anything you explicitly report, then
 ships them to your Alby project where an AI agent can auto-open a fix task.
@@ -17,7 +17,7 @@ ships them to your Alby project where an AI agent can auto-open a fix task.
 composer require alby/report
 ```
 
-Requires PHP 8.1+, `ext-curl`, `ext-json`. No other runtime dependencies.
+Requires PHP 8.2+, `ext-curl`, `ext-json`. No other runtime dependencies.
 
 ## Use
 
