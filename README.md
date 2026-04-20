@@ -3,7 +3,7 @@
 [![Packagist](https://img.shields.io/packagist/v/alby/report.svg?color=4f5d95&logo=packagist&logoColor=white)](https://packagist.org/packages/alby/report)
 [![Packagist downloads](https://img.shields.io/packagist/dt/alby/report.svg?color=4f5d95)](https://packagist.org/packages/alby/report)
 [![PHP](https://img.shields.io/packagist/php-v/alby/report.svg?color=777bb4&logo=php&logoColor=white)](https://packagist.org/packages/alby/report)
-[![CI](https://github.com/alby-sh/alby-php/actions/workflows/ci.yml/badge.svg)](https://github.com/alby-sh/alby-php/actions/workflows/ci.yml)
+[![CI](https://github.com/alby-sh/alby-sdk-php/actions/workflows/ci.yml/badge.svg)](https://github.com/alby-sh/alby-sdk-php/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 Official [Alby](https://alby.sh) error-tracking SDK for PHP 8.2+.
@@ -125,8 +125,8 @@ writing an SDK for a new runtime, start there.
 ## Links
 
 - Website: [alby.sh](https://alby.sh)
-- Report issues: [GitHub Issues](https://github.com/alby-sh/alby-php/issues)
-- Other SDKs: [alby-js](https://github.com/alby-sh/alby-js) · [alby-browser](https://github.com/alby-sh/alby-browser) · [alby-python](https://github.com/alby-sh/alby-python)
+- Report issues: [GitHub Issues](https://github.com/alby-sh/alby-sdk-php/issues)
+- Other SDKs: [alby-sdk-js](https://github.com/alby-sh/alby-sdk-js) · [alby-sdk-browser](https://github.com/alby-sh/alby-sdk-browser) · [alby-sdk-python](https://github.com/alby-sh/alby-sdk-python)
 
 ## License
 
