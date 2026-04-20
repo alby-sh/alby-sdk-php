@@ -1,0 +1,44 @@
+{
+    "name": "alby/report",
+    "description": "Official Alby error-tracking SDK for PHP. Ships uncaught exceptions, errors, and manual events to your Alby project.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["alby", "error-tracking", "exceptions", "monitoring", "laravel", "sdk"],
+    "homepage": "https://alby.sh",
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alby\\Report\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alby\\Report\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/pest"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alby\\Report\\Laravel\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
